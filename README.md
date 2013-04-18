@@ -12,7 +12,13 @@ Use the static function to validate the URN:
         // valid URN
     }
 
+# Tests
+Some PHPUnit tests are included in the `tests` directory. You can run them 
+using:
+
+    phpunit tests/
+
 # License
 Licensed under the Apache License, Version 2.0;
 
-   http://www.apache.org/licenses/LICENSE-2.0
+    http://www.apache.org/licenses/LICENSE-2.0
