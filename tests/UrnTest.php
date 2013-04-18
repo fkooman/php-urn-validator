@@ -59,6 +59,14 @@ class UrnTest extends PHPUnit_Framework_TestCase
             array("urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66"),
             array("urn:nbn:de:bvb:19-146642"),
             array("urn:lex:eu:council:directive:2010-03-09;2010-19-UE"),
+
+            // from the RFC
+            array("URN:foo:a123,456"),
+            array("urn:foo:a123,456"),
+            array("urn:FOO:a123,456"),
+            array("urn:foo:A123,456"),
+            array("urn:foo:a123%2C456"),
+            array("URN:FOO:a123%2c456"),
         );
     }
 
